@@ -1,0 +1,34 @@
+{
+  "name": "ritm-coffee",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "qa": "node scripts/qa.cjs",
+    "qa:lifecycle": "node scripts/qa-lifecycle.cjs",
+    "qa:ticker": "node scripts/qa-drink-ticker.cjs",
+    "qa:clock": "node scripts/qa-clock.cjs",
+    "qa:transition": "node scripts/qa-transition.cjs",
+    "qa:products": "node scripts/qa-products.cjs",
+    "qa:coffee-guide": "node scripts/qa-coffee-guide.cjs",
+    "qa:responsive": "node scripts/qa-responsive-carousel.cjs",
+    "qa:failure": "node scripts/qa-failure-gestures.cjs",
+    "qa:pages": "node scripts/qa-pages.cjs"
+  },
+  "dependencies": {
+    "gsap": "^3.14.2",
+    "lenis": "^1.3.11",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "split-type": "^0.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7",
+    "playwright": "^1.55.0",
+    "sharp": "^0.34.3"
+  }
+}

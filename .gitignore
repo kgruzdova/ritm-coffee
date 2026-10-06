@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+artifacts/
+.npm-cache/
+output/
+info/
+separate-keyframes/
+assets-source/
+*.zip
+*.mp4
+/*.png
+/prompt.txt
+.env
+.env.*
